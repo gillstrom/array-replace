@@ -19,10 +19,10 @@ const arr = [
 	'bar'
 ];
 
-keyReplace(arr, 'fo', 'y');
+arrayReplace(arr, 'fo', 'y');
 //=> ['yo', 'bar']
 
-keyReplace(arr, 'fo', str => str.toUpperCase());
+arrayReplace(arr, 'fo', str => str.toUpperCase());
 //=> ['FOo', 'bar']
 ```
 
