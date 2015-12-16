@@ -22,9 +22,7 @@ const arr = [
 keyReplace(arr, 'fo', 'y');
 //=> ['yo', 'bar']
 
-keyReplace(arr, 'fo', str => {
-	return str.toUpperCase();
-});
+keyReplace(arr, 'fo', str => str.toUpperCase());
 //=> ['FOo', 'bar']
 ```
 
