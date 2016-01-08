@@ -58,6 +58,7 @@ Replacing the matching substring.
 ## Related
 
 * [key-replace](https://github.com/gillstrom/key-replace) - Replace object keys with `String.prototype.replace`
+* [value-replace](https://github.com/gillstrom/value-replace) - Replace object values with `String.prototype.replace`
 
 
 ## License
